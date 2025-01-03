@@ -115,7 +115,6 @@ async function optionSelected() {
     for (var key in dictionary) {
       if (key == text2Value) {
         convertedAnswer = userNumber * dictionary[key];
-        console.log(convertedAnswer);
         document.getElementById("result").innerHTML =
           convertedAnswer.toFixed(2);
       }
