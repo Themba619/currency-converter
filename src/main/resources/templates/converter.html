@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/converter.css">
+</head>
+<body>
+    <h2>Result text here: <span id="result"></span></h2>
+    <div class="container">
+        <div class="content">
+            
+            <div class="box">
+                <input 
+                    class="inputBox" id="inputNumber" type="number" 
+                    placeholder="Type amount here Amount" onchange="getValue()"
+                />
+                <select id="currencySelector1"></select>
+                <select id="currencySelector2"></select>
+            </div>
+            
+            <h1 class="convertBtn">
+                Enter number first, select first currency, finally then second.
+            </h1>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/js/calculateConversion.js"></script>
+    <script type="text/javascript">
+        displayOptions();
+        optionSelected();
+    </script>
+</body>
+</html>

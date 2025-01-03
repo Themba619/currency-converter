@@ -1,0 +1,68 @@
+html, body {
+    height: 100%; /* Ensure the body takes up the full height of the viewport */
+    margin: 0;    /* Remove default margin */
+}
+
+.container {
+    display: flex;
+    align-items: center;  /* Vertically center the content */
+    justify-content: center; /* Horizontally center the content */
+    height: 100%; /* Ensure the container takes up the full height */
+    width: 100%;  /* Set the width to whatever you need */
+}
+
+.content{
+    width: 60%;
+    height: 50%;
+    border-style: dashed;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,89,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.box{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgb(9, 121, 71) 35%, rgb(193, 3, 197) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.inputBox{
+    width: 200px;
+    margin-right: 10px;
+    height: 35px;
+}
+
+#currencySelector1{
+    width: 50px;
+    height: 50px;
+}
+
+#currencySelector2{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.convertBtn{
+    border-style: none;
+    background-color: aqua;
+    border-radius: 20px;
+    width: 600px;
+    height: 80px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+
+.btnText{
+    font-size: 30px;
+}
+
+h2{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: absolute;
+    left: 450px;
+    font-size: 40px;
+}
