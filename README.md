@@ -6,7 +6,7 @@ This is a simple **Currency Converter App** built using **Java Spring Boot** for
 
 ## Features
 
-- Fetches exchange rates from [ExchangeRate-API](https://app.exchangerate-api.com/dashboard).
+- Fetches exchange rates from [ExchangeRate-API](https://app.exchangerate-api.com).
 - Converts currency based on the latest exchange rates.
 
 ---
